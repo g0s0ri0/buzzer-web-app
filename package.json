@@ -1,0 +1,21 @@
+{
+  "name": "buzzer-web-app",
+  "version": "1.0.0",
+  "description": "Aplicación Web Buzzer en tiempo real con Node.js y Socket.IO",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "websocket",
+    "socket.io",
+    "buzzer"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2"
+  }
+}

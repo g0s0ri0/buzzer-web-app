@@ -1,0 +1,11 @@
+# Directorios de dependencias
+node_modules
+
+# Archivos de logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Entorno y Configuración local
+.env
+.DS_Store
