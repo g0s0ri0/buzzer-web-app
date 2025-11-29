@@ -97,7 +97,7 @@ io.on('connection', (socket) => {
 });
 
 // Inicia el servidor
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 10000;
 server.listen(PORT, () => {
     console.log(`Servidor de Buzzer corriendo en http://localhost:${PORT}`);
 });
